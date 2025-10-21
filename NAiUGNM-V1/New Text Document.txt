@@ -1,0 +1,10 @@
+overfitting lahko opazimo če je na učni množici zelo dober rezultat, na testni pa ne
+
+cilj med ucenjem zaznat overfitting in ucenje ustavit
+
+graf accuracy epochs
+	loss epochs
+
+deep lerning:
+	underfitting: učenje in validcija oba visoko
+	overfitting: učenje zelo nizni error rate, validation pa visoki
