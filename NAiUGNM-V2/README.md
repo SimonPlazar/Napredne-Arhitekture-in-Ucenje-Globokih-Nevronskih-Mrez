@@ -20,11 +20,15 @@ Implementirajte osnovni samokodirnik in ga naučite s ciljem rekonstrukcije slik
 
 ## V2.2
 
+Implementirajte globoki samokodirnik (ang. deep autodencoder) in ga naučite s ciljem rekonstrukcije slik v podatkovni zbirki MNIST. Kodirnik in dekodirnik naj imata dve plasti. Pri kodirniku naj bo prva plast dimenzije 512, druga pa 256, pri dekodirniku pa obratno. Latentni prostor naj bo dimenzije 32. Za funkcijo izgube uporabite povprečno kvadratno napako (ang. mean squared error). Podajte primerjavo nekaj primerov rekonstruiranih slik in njihovih izvornikov. Dodajte tudi primere rekonstruiranih slik iz sklopa V2.1. Priložite graf funkcije izgube med učenjem za učno in validacijsko množico.
 
 ## V2.3
+
 
 
 ## V2.4
 
 
+
 ## V2.5
+
