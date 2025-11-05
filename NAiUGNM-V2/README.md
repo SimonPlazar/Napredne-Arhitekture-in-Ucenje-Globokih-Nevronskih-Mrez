@@ -24,11 +24,12 @@ Implementirajte globoki samokodirnik (ang. deep autodencoder) in ga naučite s c
 
 ## V2.3
 
-
+Implementirajte ß-variacijski samokodirnik (ang. ß-variational autoencoder) in ga naučite s ciljem rekonstrukcije slik v podatkovni zbirki MNIST. Ustrezno implementirajte plasti s srednjimi vrednostmi mu in standardnih odklonov sigma. Vhod se naj najprej preslika v dimenzijo 512, latentni prostor pa naj bo dimenzije 32. Za funkcijo izgube uporabite posebno funkcijo, ki združuje funkcijo izgube za rekonstrukcijo (povprečna kvadratna napaka) in Kullback-Lieblerjevo divergenco. V izračun funkcije izgube vključite parameter ß, ki ga privzeto nastavite na vrednost 1.0. Podajte primerjavo nekaj primerov rekonstruiranih slik in njihovih izvornikov. Dodajte tudi primere rekonstruiranih slik iz sklopov V2.1 in V2.2. Priložite graf funkcije izgube med učenjem za učno in validacijsko množico.
 
 ## V2.4
 
-
+Obstoječe implementacije sklopov V2.1, V2.2 in V2.3 dopolnite z logiko predčasnega ustavljanja učenja (ang. early-stopping), kjer se učenje prekine, če se v zadnjih 5 epohah vrednost funkcije izgube za validacijo ne spremeni. Zaženite vse implementirane samokodirnike na podatkovnih zbirkah FashionMNIST in CIFAR10 ter podajte primerjavo rekonstruiranih slik in njihovih izvornikov na nekaj primerih. Bodite pozorni na dimenzije vhoda pri podatkovni zbirki CIFAR10! Latentni prostor naj bo v tem primeru dimenzije 64, pri dimenziji vhoda pa upoštevajte dimenzije slik v tej podatkovni zbirki. Podajte komentar na dobljene rezultate in jih utemeljite.
 
 ## V2.5
 
+Na podatkovnih zbirkah MNIST, FashionMNIST in CIFAR10 preizkusite različne vrednosti parametra ß za ß-variacijski samokodirnik. Podajte primere rekonstruiranih slik in komentar ter ugotovitve kako parameter ß vpliva na rekonstrukcijo. Priložite grafe funkcije izgube med učenjem za učno in validacijsko množico.
