@@ -6,7 +6,8 @@
 *.csv
 *.m4a
 __pycache__/
-*/Datasets/*
+**/Dataset/*
+**/Datasets/*
 **/output_*/epoch_*.png
 
 ### JetBrains ###
