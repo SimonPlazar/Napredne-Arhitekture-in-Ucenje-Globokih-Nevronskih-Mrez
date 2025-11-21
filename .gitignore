@@ -9,6 +9,7 @@ __pycache__/
 **/Dataset/*
 **/Datasets/*
 **/output_*/epoch_*.png
+**/output_*/**/step_*.png
 
 ### JetBrains ###
 # Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm, CLion, Android Studio, WebStorm and Rider
