@@ -28,14 +28,27 @@ Učenje naj poteka v več paketih (ang. batches) tako, da najprej z generatorjem
 
 # V3.2
 
+Implementirajte CycleGAN, ki omogoča prenos lastnosti ene slike na drugo sliko. Uporabite podatkovno zbirko Apple2orange. V postopku nasprotniškega učenja boste potrebovali:
 
+Generator, ki preslika jabolka v pomaranče (G_X2Y)
+Generator, ki preslika pomaranče v jabolka (G_Y2X)
+Diskriminator, ki razločuje med resničnimi in generiranimi jabolki (D_X)
+Diskriminator, ki razločuje med resničnimi in generiranimi pomarančami (D_Y)
+Med učenjem uporabljajte več funkcij izgube:
+
+Funkcije izgube GAN, ki pripomorejo k temu, da generirane slike izgledajo bolj resnične
+Funkciji izgube cikličnosti (ang. cycle loss), ki pripomoreta k obratnim preslikavam (X2Y in Y2X)
+Funkciji izgube identitete (ang. identity loss), ki pripomoreta k ohranjanju stabilnosti vsebine slike (npr. barv)
+Funkcija izgube GAN naj bo povprečna kvadratna napaka (MSE), ostali dve funkciji izgube pa naj bosta L1 (oz. MAE). Skupna funkcija izgube za generator naj bo seštevek funkcij izgub obeh generatorjev, obeh funkcij izgub cikličnosti in obeh funkcij izgub identitete. Skupna funkcija izgube za diskriminator naj bo podobna kot pri DCGAN. Učenje naj traja vsaj 15 epoh. Po vsaki epohi shanite sliko parov slik, da boste na koncu lahko prikazali postopek učenja z animacijo GIF. Prikažite tudi grafa funkcij izgub za generator in diskriminator.
 
 # V3.3
 
-
+Implementacijo CycleGAN iz V3.2 naučite na podatkovni zbirki Summer2Winter Yosemite. Učenje naj traja vsaj 15 epoh. Po vsaki epohi shanite sliko parov slik, da boste na koncu lahko prikazali postopek učenja z animacijo GIF. Prikažite tudi grafa funkcij izgub za generator in diskriminator. Primerjajte rezultate s slikami jabolk in pomaranč iz V3.2 in podajte komentar ter ugotovitve.
 
 # V3.4
 
-
+Implementirajte model za prenos stila iz ene slike na drugo (ang. neural style transfer). Za zgled uporabite članek.  Uporabite obstoječi model za slike VGG19 in ustrezno implementirajte funkciji izgube vsebine (ang. content loss) in stila (ang. style loss). Pri optimizaciji parametrov uporabite gradientni spust, lahko pa preizkusite tudi L-BFGS za boljše rezultate. Uporabite priložene slike in pokažite postopen prenos stila po 50, 100, 150, 200, 250 in 300 korakih.
 
 # V3.5
+
+Preizkusite in pokažite rezultate prenosa stila na generiranih slikah, ki ste jih ustvarili v V3.1, V3.2 in V3.3. Uporabite priložene slike za stil in pokažite postopen prenos stila po 50, 100, 150, 200, 250 in 300 korakih na vsaj 3 slikah iz vsakega izmed sklopov V3.1, V3.2 in V3.3.
