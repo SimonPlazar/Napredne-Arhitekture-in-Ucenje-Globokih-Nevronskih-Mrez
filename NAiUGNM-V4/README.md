@@ -24,11 +24,13 @@ Za potrebe Q-učenja implementirajte spomin (ang. memory, replay buffer), kamor 
 
 ## V4.2
 
+Razširite implementacijo sklopa V4.1 z implementacijo DDQN (ang. double deep Q-network) na problemu Lunar Lander. Tokrat imejte v implementaciji agenta dve Q-mreži. Prva Q-mreža bo izbirala akcije (ang. online network), druga pa bo vrednotila akcije (ang. target network). Ideja je, da se izbere tista akcija, ki ima maksimalno vrednost v prvi mreži, vendar se ovrednoti z drugo mrežo. Periodično se vrednosti prve Q-mreže skopirajo v drugo Q-mrežo. Pri učenju za funkcijo izgube uporabite povprečno kvadratno napako (ang. mean squared error - MSE).
 
+Pri učenju lahko implementirate tudi zaustavitveni pogoj, kadar je povprečna ocena v zadnjih 10 korakih večja ali enaka 200. Izrišite graf ocen skozi epizode učenja in animacijo GIF, ki prikazuje delovanje modela.
 
 ## V4.3
 
-
+Implementaciji DQN in DDQN iz sklopov V4.1 in V4.2 zaženite na problemih CartPole in Acrobot. Poiščite ustrezne parametre za učenje implementirate pa lahko tudi smiselne zaustavitvene pogoje. Izrišite graf ocen skozi epizode učenja in animacijo GIF, ki prikazuje delovanje modela za oba problema (priložen je primer za problem Acrobot).
 
 ## V4.4
 
