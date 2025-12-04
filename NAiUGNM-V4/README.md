@@ -34,6 +34,7 @@ Implementaciji DQN in DDQN iz sklopov V4.1 in V4.2 zaženite na problemih CartPo
 
 ## V4.4
 
-
+Implementaciji DQN in DDQN iz sklopov V4.1 in V4.2 zaženite na problemu Pong. Poiščite ustrezne parametre za učenje implementirate pa lahko tudi smiselne zaustavitvene pogoje. Izrišite graf ocen skozi epizode učenja in animacijo GIF, ki prikazuje delovanje modela.
 
 ## V4.5
+
