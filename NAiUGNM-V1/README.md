@@ -23,12 +23,12 @@ Ponovite učenje z nevronsko mrežo z manj nevroni (4 namesto 16). Na enak nači
 
 ## V1.3
 
-
+Ponovite učenje z nevronsko mrežo z več nevroni (512 namesto 16). Na enak način kot prej izrišite grafe funkcij izgub in točnosti ter podajte komentar in ugotovitve. Kaj se je spremenilo s tem, ko ste povečali število nevronov? Ali je to pripomoglo k reševanju prekomernega prileganja?
 
 ## V1.4
 
-
+Ponovite učenje vseh treh arhitektur nevronskih mrež (4, 16 in 512 nevronov) z dodano regularizacijo L2. Na enak način kot prej izrišite grafe funkcij izgub in točnosti, ter podajte komentar in ugotovitve. Nato ponovite učenje vseh treh arhitektur nevronskih mrež z dodano plastjo izpusta. Primerjajte grafe funkcij izgub in točnosti s tistimi iz vseh prejšnjih sklopov in s tistimi, kjer ste dodali regularizacijo L2 (4, 16 in 15 nevronov, brez in z regularizacije L2, brez in s plastjo izpusta). Podajte komentar in ugotovitve glede prekomernega prilagajanja. Katera arhitektura nevronske mreže je vodila v najboljše rezultate po metriki točnosti? Pri kateri nevronski mreži je bilo učenje najbolj stabilno?
 
 ## V1.5
 
-
+Ponovite učenje vseh treh arhitektur nevronskih mrež (4, 16 in 512 nevronov) s kombinacijo regularizacije L2 in plasti izpusta. Na enak način kot prej izrišite grafe funkcij izgub in točnosti, ter podajte komentar in ugotovitve. Nato ponovite učenje arhitekture nevronske mreže tega sklopa in vseh arhitektur prejšnjih sklopov z več podatki. Podatkovno zbirko razširite na najpogostejših 5000 besed. Ali se je s povečanjem količine podatkov kaj spremenilo? Za vse kombinacije arhitektur povečajte in pomanjšajte stopnjo učenja. Izrišite grafe funkcij izgub in točnosti, ter podajte komentar in ugotovitve. Ali spreminjanje stopnje učenja vpliva na prekomerno prileganje?

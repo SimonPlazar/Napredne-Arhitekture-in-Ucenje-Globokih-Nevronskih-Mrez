@@ -38,3 +38,4 @@ Implementaciji DQN in DDQN iz sklopov V4.1 in V4.2 zaženite na problemu Pong. P
 
 ## V4.5
 
+Implementacijo DQN in DDQN iz sklopa V4.4 (problem Pong) dopolnite z zmožnostjo učenja na več grafičnih procesnih enotah. Uporabite PyTorch DDP (Distributed Data Parallel) ali PyTorch Lightning Fabric (priporočljivo). Uporabite Kaggle Notebook, ki vam po verifikaciji računa omogoča dostop do 2x NVIDIA Tesla T4 grafičnih procesnih enot. Primerjajte čas učenja in kvaliteto modela na problemu Pong. Izrišite graf ocen skozi epizode učenja in animacijo GIF, ki prikazuje delovanje modela.
